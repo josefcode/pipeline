@@ -19,6 +19,9 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
           <p>Welcome atef to the new age !!!!</p>
+          <li>
+            <p>I don't know what is all about</p>
+          </li>
         </ol>
 
         <div className={styles.ctas}>

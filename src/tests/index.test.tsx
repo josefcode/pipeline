@@ -8,4 +8,9 @@ describe("Home Page", () => {
     const heading = screen.getByText("Welcome atef to the new age !!!!");
     expect(heading).toBeInTheDocument();
   });
+  it("renders a heading", () => {
+    render(<Home />);
+    const heading = screen.getByText("don't know what is all about");
+    expect(heading).toBeInTheDocument();
+  });
 });
