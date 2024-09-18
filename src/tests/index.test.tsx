@@ -5,7 +5,7 @@ import "@testing-library/jest-dom";
 describe("Home Page", () => {
   it("renders a heading", () => {
     render(<Home />);
-    const heading = screen.getByAltText("Next.js logo");
+    const heading = screen.getByText("wlcome atef to the new age !!!!");
     expect(heading).toBeInTheDocument();
   });
 });
