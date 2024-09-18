@@ -31,6 +31,9 @@ jobs:
       - name: Run tests
         run: npm run test
 
+      - name: Build the project
+      run: npm run build
+
  - name: Check if PR is mergeable
       run: |
         if [ "$(jq -r .pull_request.mergeable $GITHUB_EVENT_PATH)" != "true" ]; then
